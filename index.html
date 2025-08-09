@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html">My Blog</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">首页</a></li>
+                <li><a href="pages/archive.html">归档</a></li>
+                <li><a href="pages/about.html">关于</a></li>
+            </ul>
+            <div class="theme-switch">
+                <i class="fas fa-moon"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <section class="profile-section">
+            <div class="profile-card">
+                <img src="https://via.placeholder.com/150" alt="头像" class="avatar">
+                <h1 class="name">你的名字</h1>
+                <p class="bio">个人简介：热爱技术，热爱分享</p>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="posts-section">
+            <h2 class="section-title">最新文章</h2>
+            <div class="posts-grid">
+                <!-- 文章卡片示例 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="https://via.placeholder.com/300x200" alt="文章配图">
+                    </div>
+                    <div class="post-content">
+                        <h3 class="post-title"><a href="posts/example-post.html">示例文章标题</a></h3>
+                        <div class="post-meta">
+                            <span class="post-date"><i class="far fa-calendar"></i> 2024-03-20</span>
+                            <span class="post-category"><i class="far fa-folder"></i> 技术</span>
+                        </div>
+                        <p class="post-excerpt">
+                            这里是文章摘要，简短介绍文章的主要内容...
+                        </p>
+                        <a href="posts/example-post.html" class="read-more">阅读更多</a>
+                    </div>
+                </article>
+                <!-- 更多文章卡片 -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 我的博客. All rights reserved.</p>
+            <p>Powered by <a href="https://github.com/yourusername/blog" target="_blank">GitHub Pages</a></p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
